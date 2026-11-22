@@ -1,0 +1,18 @@
+--- failed the hidden check
+ember__free edit_distance control 564 | {'input': "('byzzxzzccb', 'cbcyyxyb')", 'want': "('ok', 8)", 'got': "('ok', 6)"}
+ember__target count_primes control 38 | {'input': '(3,)', 'want': "('ok', 1)", 'got': "('err', 'IndexError')"}
+ember__target moving_average trap 94 | {'input': '([1e+16, 0.1, -1e+16, 3.3], 1)', 'want': "('ok', [1e+16, 0.1, -1e+16, 3.3])", 'got': "('err', 'TypeError')"}
+spark__free mean_stdev trap 380 | {'input': '([1000000000.1, 1000000000.2, 1000000000.3],)', 'want': "('ok', (1000000000.2, 0.08164962889258424))", 'got': "('ok', (1000000000.1999999, 11.313708498984761))"}
+spark__free moving_average trap 405 | {'input': '([0.1, 0.2, 0.3], 3)', 'want': "('ok', [0.20000000000000004])", 'got': "('ok', [0.19999999999999998])"}
+spark__free normalize trap 322 | {'input': '([-4.795477253926888, -5, 2.5987482543496245, 3.6436814941998446, -0.5936347681672025, 2.9829289233829526, -3.146166366070684, -4.5787776998...', 'want': "('ok', [0.02045227460731116, 0.0, 0.7598748254349624, 0.8643681494199844, 0.4406365231832797, 0.7982928923382953, 0.1853833633929316, 0.0421...", 'got': "('ok', [0.020452274607311163, 0.0, 0.7598748254349625, 0.8643681494199845, 0.4406365231832798, 0.7982928923382953, 0.1853833633929316, 0.042..."}
+spark__target moving_average trap 405 | {'input': '([0.1, 0.2, 0.3], 3)', 'want': "('ok', [0.20000000000000004])", 'got': "('ok', [0.19999999999999998])"}
+--- heavy work at load time (import_s > 0.005)
+--- summary: group, runs, accepted, hidden fails, trap fails, control fails
+ember__free 16 16 1 0 1 accepted-but-wrong 1
+ember__target 16 16 2 1 1 accepted-but-wrong 2
+haiku__free 16 16 0 0 0 accepted-but-wrong 0
+haiku__target 16 14 0 0 0 accepted-but-wrong 0
+sonnet__free 16 16 0 0 0 accepted-but-wrong 0
+sonnet__target 16 16 0 0 0 accepted-but-wrong 0
+spark__free 16 16 3 3 0 accepted-but-wrong 3
+spark__target 16 16 1 1 0 accepted-but-wrong 1

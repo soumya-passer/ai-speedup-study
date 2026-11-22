@@ -1,0 +1,15 @@
+You are a Python performance engineer. Your work folder is:
+/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/word_wrap
+
+Task: edit candidate.py in that folder so the function word_wrap runs faster. original.py is the reference. score.py checks your work.
+
+Your work is accepted when score.py prints ACCEPTED: all tests pass and it is at least 2.0x faster.
+
+Run the scorer with exactly this command (it runs inside a sandbox):
+cd "/Users/soumyadas/Public/Kinso Skills" && KINSO_ALLOWED_ROOTS=/Users/soumyadas/Public/speedup-study kinso-frontend/tools/sandbox/run.sh --no-net /Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/word_wrap /bin/sh -c "cd /Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/word_wrap && python3 score.py"
+
+Rules:
+- Work only inside your work folder.
+- You may run the scorer up to 5 times.
+- Standard library only.
+- When done, reply with the last scorer output and 2 or 3 lines on what you changed.

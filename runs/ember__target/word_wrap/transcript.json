@@ -1,0 +1,93 @@
+[
+ {
+  "role": "user",
+  "content": "You are a Python performance engineer. Your work folder is:\n/Users/soumyadas/Public/speedup-study/study/runs/ember__target/word_wrap\n\nTask: edit candidate.py in that folder so the function word_wrap runs faster. original.py is the reference. score.py checks your work.\n\nYour work is accepted when score.py prints ACCEPTED: all tests pass and it is at least 2.0x faster.\n\nUse the tools: read_file, write_candidate, run_scorer.\nRules:\n- You may run the scorer up to 5 times.\n- Standard library only.\n- When done, reply with the last scorer output and 2 or 3 lines on what you changed.\n"
+ },
+ {
+  "content": "Squeezing word_wrap 2\u00d7 faster \u2014 first profiling the reference implementation.",
+  "tool_calls": [
+   {
+    "id": "call_c77eefbc-6295-4aac-b74c-5aeb21c47304",
+    "type": "function",
+    "function": {
+     "name": "read_file",
+     "arguments": "{\"name\":\"original.py\"}"
+    }
+   },
+   {
+    "id": "call_bcac0d98-e32c-43c9-91db-29d1078fae2b",
+    "type": "function",
+    "function": {
+     "name": "read_file",
+     "arguments": "{\"name\":\"candidate.py\"}"
+    }
+   },
+   {
+    "id": "call_db0fa31d-ec1e-46ab-8971-57b266299856",
+    "type": "function",
+    "function": {
+     "name": "read_file",
+     "arguments": "{\"name\":\"score.py\"}"
+    }
+   }
+  ],
+  "role": "assistant"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_c77eefbc-6295-4aac-b74c-5aeb21c47304",
+  "content": "def word_wrap(text, width):\n    \"\"\"Greedy wrap. Words are separated only by the space character; tabs,\n    new lines and hyphens are part of a word. Each line holds as many words\n    as fit within width, joined by one space. A word longer than width is\n    cut into pieces of width characters, each on its own line, and the last\n    piece starts the next line. Raises ValueError when width < 1.\"\"\"\n    if width < 1:\n        raise ValueError(\"width < 1\")\n    words = [w for w in text.split(\" \") if w]\n    lines = []\n    cur = []\n    for w in words:\n        while len(w) > width:\n            if cur:\n                lines.append(\" \".join(cur))\n                cur = []\n            lines.append(w[:width])\n            w = w[width:]\n        candidate = cur + [w]\n        if len(\" \".join(candidate)) <= width:\n            cur = candidate\n        else:\n            lines.append(\" \".join(cur))\n            cur = [w]\n    if cur:\n        lines.append(\" \".join(cur))\n    return lines\n"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_bcac0d98-e32c-43c9-91db-29d1078fae2b",
+  "content": "def word_wrap(text, width):\n    \"\"\"Greedy wrap. Words are separated only by the space character; tabs,\n    new lines and hyphens are part of a word. Each line holds as many words\n    as fit within width, joined by one space. A word longer than width is\n    cut into pieces of width characters, each on its own line, and the last\n    piece starts the next line. Raises ValueError when width < 1.\"\"\"\n    if width < 1:\n        raise ValueError(\"width < 1\")\n    words = [w for w in text.split(\" \") if w]\n    lines = []\n    cur = []\n    for w in words:\n        while len(w) > width:\n            if cur:\n                lines.append(\" \".join(cur))\n                cur = []\n            lines.append(w[:width])\n            w = w[width:]\n        candidate = cur + [w]\n        if len(\" \".join(candidate)) <= width:\n            cur = candidate\n        else:\n            lines.append(\" \".join(cur))\n            cur = [w]\n    if cur:\n        lines.append(\" \".join(cur))\n    return lines\n"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_db0fa31d-ec1e-46ab-8971-57b266299856",
+  "content": "\"\"\"Scorer for one task. Usage: python3 score.py\nRuns the visible tests on candidate.py, then times candidate.py against\noriginal.py on the benchmark input (best of 5 runs).\"\"\"\nimport copy\nimport importlib.util\nimport os\nimport time\n\nHERE = os.path.dirname(os.path.abspath(__file__))\nFUNC = 'word_wrap'\nTESTS = [(('the quick brown fox', 10), ['the quick', 'brown fox']), (('a b c', 1), ['a', 'b', 'c'])]\nBENCH_SRC = \"import random\\n_r = random.Random(7)\\nARGS = (' '.join(''.join(_r.choice('abcdefgh') for _ in range(_r.randint(1, 8))) for _ in range(20000)), 400)\"\nTARGET = 2.0  # None means no speed target\n\n\ndef load(name):\n    spec = importlib.util.spec_from_file_location(name, os.path.join(HERE, name + \".py\"))\n    m = importlib.util.module_from_spec(spec)\n    spec.loader.exec_module(m)\n    return getattr(m, FUNC)\n\n\ndef best(fn, args, reps=5):\n    t_best = float(\"inf\")\n    for _ in range(reps):\n        a = copy.deepcopy(args)\n        t = time.perf_counter()\n        fn(*a)\n        t_best = min(t_best, time.perf_counter() - t)\n    return t_best\n\n\nref, cand = load(\"original\"), load(\"candidate\")\nok = True\nfor args, want in TESTS:\n    try:\n        got = cand(*copy.deepcopy(args))\n    except Exception as e:  # noqa: BLE001\n        got = \"raised \" + type(e).__name__\n    if got != want:\n        ok = False\n        print(\"FAIL %s%r: want %r, got %r\" % (FUNC, args, want, got))\nif ok:\n    print(\"tests: all %d passed\" % len(TESTS))\n\nenv = {}\nexec(BENCH_SRC, env)\nspeed = best(ref, env[\"ARGS\"]) / best(cand, env[\"ARGS\"])\nprint(\"speed: %.2fx faster than original\" % speed)\n\nif TARGET is not None and speed < TARGET:\n    ok = False\n    print(\"speed is below the %.1fx target\" % TARGET)\nprint(\"ACCEPTED\" if ok else \"NOT ACCEPTED\")\n"
+ },
+ {
+  "content": "The original rebuilds and re-joins the entire current line for every word \u2014 an O(n\u00b2) pattern. I'll track the line length incrementally and only join when flushing.",
+  "tool_calls": [
+   {
+    "id": "call_c19ab874-0a61-4878-a140-badb866f1ba9",
+    "type": "function",
+    "function": {
+     "name": "write_candidate",
+     "arguments": "{\"content\":\"def word_wrap(text, width):\\n    \\\"\\\"\\\"Greedy wrap. Words are separated only by the space character; tabs,\\n    new lines and hyphens are part of a word. Each line holds as many words\\n    as fit within width, joined by one space. A word longer than width is\\n    cut into pieces of width characters, each on its own line, and the last\\n    piece starts the next line. Raises ValueError when width < 1.\\\"\\\"\\\"\\n    if width < 1:\\n        raise ValueError(\\\"width < 1\\\")\\n    lines = []\\n    lines_append = lines.append\\n    cur = []\\n    cur_len = 0\\n    for w in text.split(\\\" \\\"):\\n        if not w:\\n            continue\\n        lw = len(w)\\n        if lw > width:\\n            if cur:\\n                lines_append(\\\" \\\".join(cur))\\n            pos = 0\\n            while lw - pos > width:\\n                lines_append(w[pos:pos + width])\\n                pos += width\\n            cur = [w[pos:]]\\n            cur_len = lw - pos\\n            continue\\n        if cur_len == 0:\\n            cur = [w]\\n            cur_len = lw\\n        elif cur_len + 1 + lw <= width:\\n            cur.append(w)\\n            cur_len += 1 + lw\\n        else:\\n            lines_append(\\\" \\\".join(cur))\\n            cur = [w]\\n            cur_len = lw\\n    if cur:\\n        lines_append(\\\" \\\".join(cur))\\n    return lines\\n\"}"
+    }
+   }
+  ],
+  "role": "assistant"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_c19ab874-0a61-4878-a140-badb866f1ba9",
+  "content": "candidate.py written"
+ },
+ {
+  "content": null,
+  "tool_calls": [
+   {
+    "id": "call_b216232d-1438-4971-85ba-9de726e0f51b",
+    "type": "function",
+    "function": {
+     "name": "run_scorer",
+     "arguments": "{}"
+    }
+   }
+  ],
+  "role": "assistant"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_b216232d-1438-4971-85ba-9de726e0f51b",
+  "content": "tests: all 2 passed\nspeed: 5.50x faster than original\nACCEPTED\n"
+ },
+ {
+  "content": "```\ntests: all 2 passed\nspeed: 5.50x faster than original\nACCEPTED\n```\n\nReplaced per-word `\" \".join(cur + [w])` and length recomputation with incremental `cur_len` tracking. Only join when a line is flushed, and chunk long words with a single slicing loop.",
+  "role": "assistant"
+ }
+]

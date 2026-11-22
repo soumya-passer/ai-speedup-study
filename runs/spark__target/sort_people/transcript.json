@@ -1,0 +1,93 @@
+[
+ {
+  "role": "user",
+  "content": "You are a Python performance engineer. Your work folder is:\n/Users/soumyadas/Public/speedup-study/study/runs/spark__target/sort_people\n\nTask: edit candidate.py in that folder so the function sort_people runs faster. original.py is the reference. score.py checks your work.\n\nYour work is accepted when score.py prints ACCEPTED: all tests pass and it is at least 2.0x faster.\n\nUse the tools: read_file, write_candidate, run_scorer.\nRules:\n- You may run the scorer up to 5 times.\n- Standard library only.\n- When done, reply with the last scorer output and 2 or 3 lines on what you changed.\n"
+ },
+ {
+  "content": "Pushing for 2\u00d7 faster \u2014 inspecting your code to find the wins.",
+  "tool_calls": [
+   {
+    "id": "call_34d133ea-eb82-48ce-9a60-bde19f270bf1",
+    "type": "function",
+    "function": {
+     "name": "read_file",
+     "arguments": "{\"name\":\"original.py\"}"
+    }
+   },
+   {
+    "id": "call_60ceeecf-af20-495b-9967-878e9ffe057b",
+    "type": "function",
+    "function": {
+     "name": "read_file",
+     "arguments": "{\"name\":\"candidate.py\"}"
+    }
+   },
+   {
+    "id": "call_5ef5ad8b-1d43-4521-b3d5-c7e84f16c1cb",
+    "type": "function",
+    "function": {
+     "name": "read_file",
+     "arguments": "{\"name\":\"score.py\"}"
+    }
+   }
+  ],
+  "role": "assistant"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_34d133ea-eb82-48ce-9a60-bde19f270bf1",
+  "content": "def sort_people(people):\n    \"\"\"people is a list of (name, age). Return a new list, oldest first.\n    People with the same age keep their order from the input.\"\"\"\n    out = []\n    for p in people:\n        i = len(out)\n        while i > 0 and out[i - 1][1] < p[1]:\n            i -= 1\n        out.insert(i, p)\n    return out\n"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_60ceeecf-af20-495b-9967-878e9ffe057b",
+  "content": "def sort_people(people):\n    \"\"\"people is a list of (name, age). Return a new list, oldest first.\n    People with the same age keep their order from the input.\"\"\"\n    out = []\n    for p in people:\n        i = len(out)\n        while i > 0 and out[i - 1][1] < p[1]:\n            i -= 1\n        out.insert(i, p)\n    return out\n"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_5ef5ad8b-1d43-4521-b3d5-c7e84f16c1cb",
+  "content": "\"\"\"Scorer for one task. Usage: python3 score.py\nRuns the visible tests on candidate.py, then times candidate.py against\noriginal.py on the benchmark input (best of 5 runs).\"\"\"\nimport copy\nimport importlib.util\nimport os\nimport time\n\nHERE = os.path.dirname(os.path.abspath(__file__))\nFUNC = 'sort_people'\nTESTS = [(([('ann', 30), ('bob', 50), ('cy', 40)],), [('bob', 50), ('cy', 40), ('ann', 30)]), (([],), [])]\nBENCH_SRC = \"import random\\n_r = random.Random(7)\\nARGS = ([('p%d' % i, _r.randint(0, 100000)) for i in range(4000)],)\"\nTARGET = 2.0  # None means no speed target\n\n\ndef load(name):\n    spec = importlib.util.spec_from_file_location(name, os.path.join(HERE, name + \".py\"))\n    m = importlib.util.module_from_spec(spec)\n    spec.loader.exec_module(m)\n    return getattr(m, FUNC)\n\n\ndef best(fn, args, reps=5):\n    t_best = float(\"inf\")\n    for _ in range(reps):\n        a = copy.deepcopy(args)\n        t = time.perf_counter()\n        fn(*a)\n        t_best = min(t_best, time.perf_counter() - t)\n    return t_best\n\n\nref, cand = load(\"original\"), load(\"candidate\")\nok = True\nfor args, want in TESTS:\n    try:\n        got = cand(*copy.deepcopy(args))\n    except Exception as e:  # noqa: BLE001\n        got = \"raised \" + type(e).__name__\n    if got != want:\n        ok = False\n        print(\"FAIL %s%r: want %r, got %r\" % (FUNC, args, want, got))\nif ok:\n    print(\"tests: all %d passed\" % len(TESTS))\n\nenv = {}\nexec(BENCH_SRC, env)\nspeed = best(ref, env[\"ARGS\"]) / best(cand, env[\"ARGS\"])\nprint(\"speed: %.2fx faster than original\" % speed)\n\nif TARGET is not None and speed < TARGET:\n    ok = False\n    print(\"speed is below the %.1fx target\" % TARGET)\nprint(\"ACCEPTED\" if ok else \"NOT ACCEPTED\")\n"
+ },
+ {
+  "content": "That insertion sort is quadratic \u2014 swapping in a stable C-level sort for a big speedup.",
+  "tool_calls": [
+   {
+    "id": "call_973fd660-83db-450d-9c1d-ccd241a3b049",
+    "type": "function",
+    "function": {
+     "name": "write_candidate",
+     "arguments": "{\"content\":\"from operator import itemgetter\\n\\ndef sort_people(people):\\n    \\\"\\\"\\\"people is a list of (name, age). Return a new list, oldest first.\\n    People with the same age keep their order from the input.\\\"\\\"\\\"\\n    return sorted(people, key=itemgetter(1), reverse=True)\\n\"}"
+    }
+   }
+  ],
+  "role": "assistant"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_973fd660-83db-450d-9c1d-ccd241a3b049",
+  "content": "candidate.py written"
+ },
+ {
+  "content": "Rewrite ready \u2014 now timing it against the target.",
+  "tool_calls": [
+   {
+    "id": "call_28cac266-8234-4dfa-89b5-bdb6f62fe81e",
+    "type": "function",
+    "function": {
+     "name": "run_scorer",
+     "arguments": "{}"
+    }
+   }
+  ],
+  "role": "assistant"
+ },
+ {
+  "role": "tool",
+  "tool_call_id": "call_28cac266-8234-4dfa-89b5-bdb6f62fe81e",
+  "content": "tests: all 2 passed\nspeed: 485.28x faster than original\nACCEPTED\n"
+ },
+ {
+  "content": "tests: all 2 passed\nspeed: 485.28x faster than original\nACCEPTED\n\nReplaced O(n\u00b2) insertion-sort loop with `sorted(..., key=itemgetter(1), reverse=True)`. Python's Timsort is O(n log n) in C and stable, preserving input order for equal ages.\n",
+  "role": "assistant"
+ }
+]

@@ -1,0 +1,1538 @@
+{
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r2__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/haiku_r3__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r2__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/sonnet_r3__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r2__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/ember_r3__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r2__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "8f66409526384074edd26cc05fd48f293187bc01f6d5fbdef0b2bdc5ea2c5311"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "c5cf7eff11339e1689e54b34221b41495682f882009865b774dad0d30acb7c20"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "c6146d2a10689a73209caccf78bb696dbdc109cc56f21919dae1d818210a9b94"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "3e200376c8dec8986fa9d23a1b963fa7cf4b384c5438fff5749d065241cd6def"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "874a75c7fb46d12d10b39209850058a28881bc65cbb2f1505be705745075065e"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "19ead1e1ba175625c592752f4e406b0787228908ade541ca706b2651c8664d5b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "9763190acd9be2ba7a5a1753a9060a1ffb40422ea14e9af6e6c71b134001a0fe"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "612218420f188e5cc397bbfa6fc552dc01e251fe43d8b07e8ee42bc0dd8adad6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "0c3a9a3516c366ec458850c88d8d9de276594b02d558442763fb140ebf539c41"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "493fffeb52c2fb689ac84b3d106558d71760c5a8b4f957c54be6cffdca177dc6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "ce43cc2d97a8372a2c3ed542dd1393c57adfbd033e58a94f6f4cf1a709bbe1ff"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "c4da5a83a4fff320fca9b2cdc44629db693a155ecd9a2bb9dd8beba22c4e1429"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "e69853bd8b01406ff591a8f48c392a60c34e20171c00c245b4afb0220ef6af96"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "8d439de30f06dae2e08448da0744264a67613f061c3784d6772bf27bf46445cf"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "2c9a72a34d091c3e40aa16da4a94209ed13efabe394307b0fb6e70d32002b92c"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__free/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "8c1545a98de72c71d1f29562bc738d5ef505971a3e34688899e22741e0dffa88"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/count_primes": {
+  "original.py": "a06ecd5c9eb0b07fc7a23f6bbeaab333636257b4c6c228ad956c3bf0306a5a6b",
+  "score.py": "eb7dbf247a08d4b141de870209b69c2388b04a3cdad9c1a132781e62dd6c0cc1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/dedupe": {
+  "original.py": "8ad34a14b5fcf796400b11d7f43d06836d2c23d806cb4ff6ca67cf5fa03ade77",
+  "score.py": "88d24353b583fab2ebb369314c940b69d4d45a7ffe1c8641c77706002a9ecf3b"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/edit_distance": {
+  "original.py": "5ab38738bbdb42059527e0b31b1f5c13b1376091f1a6d890f4f67c8568a819e8",
+  "score.py": "cb9c88832659048c55fb5a15adec497cd7c9d2ed5c6f7b40e532e2b7a90e7217"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/flatten": {
+  "original.py": "816ee23dfd2a3ea814b30def5e6a0c9018cc2fd93fefaca5bd64fdc4397ca819",
+  "score.py": "c096e2d7abe1e17486cfac5d57b27806a46cb95da0922830e42c9c9c35e30417"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/int_sqrts": {
+  "original.py": "7a7f6de0365f516ca3b2ef6a94feb5a6c7f55571abb3bb258c8d4c079184f433",
+  "score.py": "92d514bfc150ddbae6f9ee75e781f0334c0cbbd8b2c75d5304e3bfcfc5a8b48d"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/is_primes": {
+  "original.py": "1a4e72def06d4ac92319b3776ec014f6f94f91ca1d3d19e7cd8a3de53b7b88de",
+  "score.py": "882514ee02f4e9bcb09a4937a66a74db0dda5cde6c674fc6b5fdaff4e08d2fb6"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/mean_stdev": {
+  "original.py": "8f2671b72dd092b737154057a8539db54fed086ff94fb420a4757c3cf4096e04",
+  "score.py": "1c0ad50f918e011911684fd9d97fa906299c742c606874faa43dc066cc50c6b5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/merge_ranges": {
+  "original.py": "e8f3983006b3a839fe2be91382adebf027f4a94f3007da8467a41819d6e8939d",
+  "score.py": "f5271587ebd6b39f105e738ea8ff0cce044ffce678c4a8c666b7ef52aa0a2923"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/moving_average": {
+  "original.py": "2ed913c72c928f4d1562a1401dc348970d1572286926cb8f041d22642440af10",
+  "score.py": "3687a9c2394c729ed1ef245ef82c4b5de90b288b6597fec062279c0d3ea843aa"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/normalize": {
+  "original.py": "bcc18857103cfddf3053dfa78546ed7426f5c804961fdd42754c2b4a78be18af",
+  "score.py": "5ecdcee5cd40ef9ac321a44a89a2b337e41648801a8b897b7df7fe791d8925e0"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/parse_int_list": {
+  "original.py": "6abe54c147b9b1681ea8158f39dc86fcf21699a06a36f030feab1c844296f2fa",
+  "score.py": "73a6ed47fb9636a70db008c350d1fcd37bd3c6dfe93ec59fe141ddad5bb3a8d5"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/percentile": {
+  "original.py": "706ccae611208f5919dec198ff388ab7555efb066027e9d3105f5b2525463699",
+  "score.py": "193c362b370bbd6dccbb3a10b8eb8d5f9a82f87e3ff95ea5929da800941a20b1"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/round_prices": {
+  "original.py": "0324e462e1effecd88b5e540840fe254a301c9e6e383c641168db6e5f24dc37e",
+  "score.py": "69ac0f81312eafb82c982b2283d5b329d8c0dcd34e49cb4eabdfd5896e245290"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/sort_people": {
+  "original.py": "3b3f7160fe7e3a97223b90be8affb2d874ba4a7056f676665e91ac3078c34a08",
+  "score.py": "37ea749588763d777f06db613665eaf431dda13700aa28c2e9e98fb6a63cee3f"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/top_words": {
+  "original.py": "d15284e9e0eb83deeb4e3fac77e793e7f88dd67dc2bc4752ea87e848a2c44b05",
+  "score.py": "7d00e43cd74d557e049e08fec17477e9f87fe4866f72c8be9b0ba23ee1846109"
+ },
+ "/Users/soumyadas/Public/speedup-study/study/runs/spark_r3__target/word_wrap": {
+  "original.py": "72b58647e20e296fdf9a229a86545c7980baa0d9a6cafd649b682b9a1c54e832",
+  "score.py": "486791a2db937cc3991fdc25c0d795cf7b31caf80566349cacede5470aa9e229"
+ }
+}
